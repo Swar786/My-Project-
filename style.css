@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,300;1,400;1,500&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'nunito', sans-serif;
+}
+
+body{
+    margin: 0px;
+    background-color: aliceblue;
+}
+
+.dashboard{
+    padding: 0px 15px;
+    margin: 0 auto;
+}
+
+/*================Nav Section ============*/
+.dashboard .nav{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin-top: 10px;
+}
+
+.dashboard .nav img.logo{
+   width: 50px;
+   height: 50px;
+   border-radius: 10px;
+}
+
+.dashboard .nav img.user{
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+ }
+ 
+
+.dashboard .nav div .material-symbols-outlined{
+        margin-left: 5px;
+        margin-right: 5px;
+        font-size: 30px;
+        color: #727272;
+ }
+
+.dashboard .nav div{
+    margin-top: 10px;
+}
+
+/*================ MAin Dashboard ==============*/
+
+.dashboard .main .search form{
+    margin-top: 50px;
+    position: relative;
+}
+
+.dashboard .main .search form input{
+    width: 100%;
+    font-size: 16px;
+    padding: 10px 10px 10px 60px;
+    border: 1px solid #dadada;
+    background-color: rgba(0 0 0 / 0);
+}
+
+.dashboard .main .search .notification{
+    margin-top: 20px;
+}
+
+.dashboard .main .search .notification span:nth-child(1){
+    margin-right: 15px;
+}
+
+.dashboard .main .search form span{
+    position: absolute;
+    left: 15px;
+    top: 10px;
+    color: #727272;
+}
+
+/*============ My Project =========*/
+.dashboard .main .title{
+    margin-bottom: 30px;
+}
+
+.dashboard .main .title h1{
+    font-size: 35px;
+    line-height: 0px;
+}
+
+.dashboard .main .title form{
+    margin-top: 40px;
+}
+
+.dashboard .main .title form label{
+    margin-right: 15px;
+    font-size: 16px;
+    color: #727272;
+}
+
+.dashboard .main .title form select{
+    border: none;
+    font-size: 16px;
+    background-color: rgba(0 0 0 / 0);
+}
+
+/*=========== project List ===========*/
+.dashboard .main .project_list h2{
+    font-size: 20px;
+    line-height: 0;
+}
+
+.dashboard .main .project_list .project p{
+   color: #727272;
+}
+
+.dashboard .main .project_list .project ul{
+    list-style: none;
+    position: relative;
+    margin-left: 0px;
+    padding-left: 0px;
+}
+
+.dashboard .main .project_list .project ul li{
+    position: relative;
+    color: #727272;
+    margin-left: 15px;
+}
+
+.dashboard .main .project_list .project ul li::before{
+    content: "\268A";
+    position: absolute;
+    left: -15px;
+    top: -5px;
+}
+
+.dashboard .main .project_list .project .meta img{
+   width: 50px;
+   height: 50px;
+   border-radius: 50px;
+   border: 4px solid aliceblue;
+}
+
+.dashboard .main .project_list .project .meta img.stack{
+    margin-left: -20px;
+}
+
+.dashboard .main .project_list .project .meta {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 50px;
+}
+
+.dashboard .main .project_list .project {
+    padding: 20px 20px 20px 60px;
+    background-color: #fff;
+    box-shadow: 1px 1px 40px rgba(0 0 0 / .01);
+    margin-bottom: 20px;
+    border-radius: 10px;
+    position: relative;
+}
+
+.dashboard .main .project_list .category {
+    width: 30px;
+    height: 50px;
+    background-color: rebeccapurple;
+    border-radius: 0px 10px 10px 0px;
+    position: absolute;
+    left: 0;
+}
+
+.category_color1{
+    background-color: tan !important;
+}
+.category_color2{
+    background-color: rebeccapurple !important;
+}
+
+/*============chart=====*/
+.dashboard .right-bar .chart .complete{
+    text-align: center;
+    margin: 40px 0px;
+}
+.dashboard .right-bar .chart .complete h3{
+    line-height: 0px;
+}
+.dashboard .right-bar .chart .complete p{
+    color: #727272;
+}
+.dashboard .right-bar .chart {
+    background-color: #fff;
+    padding: 15px;
+    position: relative;
+    margin-bottom: 30px;
+}
+/*=========recent project=======*/
+.dashboard .right-bar .recent-project .listing h2{
+    line-height: 0px;
+}
+.dashboard .right-bar .recent-project .listing p{
+    color: #727272;
+}
+.dashboard .right-bar .recent-project .listing {
+    display: flex;
+    justify-content: space-between;
+}
+.dashboard .right-bar .recent-project {
+    background-color: #fff;
+    padding: 15px 15px 15px 60px;
+    position: relative;
+    margin-bottom: 30px;
+}
+.dashboard .right-bar .recent-project .category {
+    width: 16px;
+    height: 16px;
+    border-radius: 16px;
+    position: absolute;
+    left: 10px;
+    margin-top: 20px;
+}
